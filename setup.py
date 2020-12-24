@@ -29,7 +29,7 @@ setup(
     description="An utility to decrypt Safe in Cloud password files",
     use_2to3=True,
     license="LICENSE",
-    install_requires=["pycrypto", "xmltodict", "passlib", "docopt"],
+    install_requires=["pycryptodome", "xmltodict", "passlib", "docopt"],
     entry_points={"console_scripts": ["desafe = desafe:main"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
