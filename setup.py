@@ -3,7 +3,7 @@ from setuptools import setup
 import os
 import re
 
-version = "1.1.0"
+version = "1.1.1"
 
 setup(
     zip_safe=True,
