@@ -123,7 +123,7 @@ class Shell(object):
         if self.args["json"]:
             output = json.dumps(self.doc, indent=4)
         else:  # it must be xml
-            output = self.xmldata
+            output = str(self.xmldata)
 
         if self.args["<output-file>"]:
             try:
